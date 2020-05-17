@@ -1,0 +1,36 @@
+{
+  "name": "ydr-course-artifact",
+  "version": "1.0.0",
+  "description": "A library with DTOS for ydr-course-service",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/jest": "25.1.4",
+    "@types/node": "^14.0.1",
+    "jest": "^25.1.0",
+    "ts-jest": "25.2.1",
+    "typescript": "^3.7.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "class-validator": "^0.12.2",
+    "typeorm": "^0.2.24"
+  }
+}
