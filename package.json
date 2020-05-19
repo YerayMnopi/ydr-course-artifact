@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "class-validator": "^0.12.2",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.24",
+    "ydr-nest-common": "^1.0.2"
   }
 }

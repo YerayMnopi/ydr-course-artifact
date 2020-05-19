@@ -1,4 +1,6 @@
-export interface CourseCreate extends SlugeableDTO {
+import { SlugeableDTO } from 'ydr-nest-common';
+
+export interface CourseCreateDTO extends SlugeableDTO {
 
     price: number;
 
